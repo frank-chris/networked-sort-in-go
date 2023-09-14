@@ -46,7 +46,7 @@ Thus if you concatenated output-0.dat, output-1.dat, output-2.dat, then output-3
 
 ## Utility scripts
 
-Read about the scipts [here](https://github.com/frank-chris/sorting-in-go#utility-scripts)
+Read about the scripts [here](https://github.com/frank-chris/sorting-in-go#utility-scripts)
 
 ## Building
 
@@ -65,7 +65,7 @@ netsort <serverId> <inputFilePath> <outputFilePath> <configFilePath>
 * outputFilePath: output file
 * configFilePath: path to the config file
 
-Edit and use `src/run-demo.sh` to run the program with the testcases by starting several servers at the same time (the script provided is for 4 servers).
+Edit and use `src/run-demo.sh` to run the program with the test cases by starting several servers at the same time (the script provided is for 4 servers).
 
 Make it executable
 ```
