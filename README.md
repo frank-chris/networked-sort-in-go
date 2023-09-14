@@ -79,7 +79,7 @@ Run it
 
 ## Verifying
 
-Concatenate all the input files into a file called INPUT
+#### Concatenate all the input files into a file called INPUT
 
 ```
 $ cp input-0.dat INPUT
@@ -88,7 +88,7 @@ $ cat input-2.dat >> INPUT
 $ cat input-3.dat >> INPUT
 ```
 
-Concatenate all the output files into a file called OUTPUT
+#### Concatenate all the output files into a file called OUTPUT
 
 ```
 $ cp output-0.dat OUTPUT
@@ -97,7 +97,9 @@ $ cat output-2.dat >> OUTPUT
 $ cat output-3.dat >> OUTPUT
 ```
 
-Sort INPUT and compare it with OUTPUT
+The `concat.sh` script in the testcases can be used to do this.
+
+#### Sort INPUT and compare it with OUTPUT
 
 ```
 $ utils/{architecture}/bin/showsort INPUT | sort > REF_OUTPUT
@@ -106,4 +108,4 @@ $ diff REF_OUTPUT OUTPUT
 
 The diff command should not produce any output.
 
-
+The `verify.sh` script in the testcases can be used to do this.
